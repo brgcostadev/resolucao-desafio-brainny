@@ -6,14 +6,12 @@ const { array, today } = require("./dados");
 // 		array.filter((item) => caractere.toUpperCase() === item.name.substr(0, 1))
 // 	);
 // }
-
 // resolucao("m");
 
 //2
 // function resolucao() {
 // 	return console.log(array.map((item) => "Cliente: " + item.name));
 // }
-
 // resolucao();
 
 //3
@@ -22,7 +20,6 @@ const { array, today } = require("./dados");
 // 		array.map((item, index) => "Cliente " + index + ": " + item.name)
 // 	);
 // }
-
 // resolucao();
 
 //4
@@ -32,7 +29,6 @@ const { array, today } = require("./dados");
 // 			.length
 // 	);
 // }
-
 // resolucao("m");
 
 //5
@@ -80,7 +76,6 @@ const { array, today } = require("./dados");
 // 		})
 // 	);
 // }
-
 // resolucao("b");
 
 //8
@@ -113,7 +108,6 @@ const { array, today } = require("./dados");
 // 		array.find((item) => nome.toLowerCase() === item.name.toLowerCase())
 // 	);
 // }
-
 // resolucao("marcos albuquerque");
 
 //10
@@ -124,7 +118,6 @@ const { array, today } = require("./dados");
 // 	}
 // 	return console.log(total);
 // }
-
 // resolucao();
 
 // Implemente uma função que retorne os dados dos clientes que não compram há mais de 1 ano.
@@ -135,7 +128,6 @@ const { array, today } = require("./dados");
 // 		array.filter((item) => {
 // 			let ultimaCompra =
 // 				today.getFullYear() - item.lastPurchaseDate.getFullYear();
-
 // 			if (
 // 				new Date(today.getFullYear(), today.getMonth(), today.getDate()) <
 // 				new Date(
@@ -158,14 +150,12 @@ const { array, today } = require("./dados");
 // function resolucao() {
 // 	return console.log(array.filter((item) => item.countPurchase > 15));
 // }
-
 // resolucao();
 
 //13
 // function resolucao(cliente) {
 // 	array.unshift(cliente);
 // }
-
 // const cliente = {
 // 	name: "Jośe",
 // 	birthday: "1989-08-23T00:00:00.000Z",
@@ -173,5 +163,4 @@ const { array, today } = require("./dados");
 // 	lastPurchaseDate: "2022-06-05T00:00:00.000Z",
 // 	countPurchase: 0,
 // };
-
 // resolucao(cliente);
